@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Geek</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Qual o nome do super-herói que não tem poderes e combate o crime em Gotham?</h1>
+        <form id="pergunta1Form" onsubmit="return validaResposta('resposta1')">
+            <input type="radio" name="resposta" value="erro"> Super-Homem<br>
+            <input type="radio" name="resposta" value="erro"> Capitão América<br>
+            <input type="radio" name="resposta" value="correta"> Batman<br>
+            <input type="submit" value="Responder">
+        </form>
+        <a href="ajuda3.html">Obter Ajuda</a>
+        <div id="erro" style="display:none;color:red;">Resposta incorreta. Tente novamente!</div>
+        <script src="script3.js"></script>
+    </div>
+</body>
+</html>
